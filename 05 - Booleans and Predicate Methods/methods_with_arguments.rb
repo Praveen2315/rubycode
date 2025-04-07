@@ -5,4 +5,11 @@ a.each do |b|
 end
 puts c
 
-puts ("praveen", "naveen")
+print("praveen", "naveen")
+puts
+print 1,2,3,4,5
+p"====================="
+p 1,2,3,4,5
+p"=-==============="
+puts 1,2,3,4,5
+
