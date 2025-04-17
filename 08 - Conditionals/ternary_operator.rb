@@ -5,3 +5,5 @@ if 1<-2
 else
   puts "no"
 end
+v = 10
+puts 1<2 ? 'yes': "no"

@@ -20,3 +20,13 @@ puts even_or_odd_operations(2)
 puts even_or_odd_operations(0)
 puts even_or_odd_operations(13)
 puts even_or_odd_operations(9)
+
+
+
+
+password = "praveen"
+unless password.include?("l")
+  puts "Error"
+end
+
+puts password.include?('l') ? "yes" : "no"
