@@ -9,11 +9,17 @@
 # sum_of_string_lengths()                              => 0
 def sum_of_string_lengths(*string)
   length = 0
-  string.each do |string|
-     length += string.length
-  end
+  string.each {|string|   length += string.length}
   length
 end
 p sum_of_string_lengths("bob", "loves", "burgers")
 p sum_of_string_lengths("coding", "is", "so", "fun")
 p sum_of_string_lengths()
+
+def speac(string)
+  str = 0
+  string.each_char do |string| str+=1 if string == ' '
+  end
+  str
+end
+p speac("praveen                                             ")
